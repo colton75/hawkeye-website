@@ -1,51 +1,409 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@500&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@500&family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
 
     <title>Hawkeye &mdash; Smart Mirror</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="hero">
-        <div class="navbar">
-            <div class="logo">Hawkeye</div>
-            <nav class="navigation">
-                <ul class="navigation-list">
-                    <li class="navigation-list__item">
-                        <a href="#" class="navigation-list__link">Home</a>
-                    </li>
-                    <li class="navigation-list__item">
-                        <a href="#" class="navigation-list__link">About</a>
-                    </li>
-                    <li class="navigation-list__item">
-                        <a href="#" class="navigation-list__link">Features</a>
-                    </li>
-                    <li class="navigation-list__item">
-                        <a href="#" class="navigation-list__link">Products</a>
-                    </li>
-                    <li class="navigation-list__item">
-                        <a href="#" class="navigation-list__link">App</a>
-                    </li>
-                    <li class="navigation-list__item">
-                        <a href="#" class="navigation-list__link">Contact</a>
-                    </li>
-                </ul>
-                <div class="social-media">
-                    <div class="social-media__icon-box">
-                        <svg class="social-media__icon">
-                            <use xlink:href="img/sprite.svg#icon-facebook-with-circle"></use>
-                        </svg>
-                        <svg class="social-media__icon">
-                            <use xlink:href="img/sprite.svg#icon-instagram-with-circle"></use>
-                        </svg>
-                    </div>
-                </div>
-            </nav>
+      <div class="navbar">
+        <div class="logo">Hawkeye</div>
+        <nav class="navigation">
+          <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <ul class="navigation-list">
+            <li class="navigation-list__item">
+              <a href="#" class="navigation-list__link">Home</a>
+            </li>
+            <li class="navigation-list__item">
+              <a href="#" class="navigation-list__link">About</a>
+            </li>
+            <li class="navigation-list__item">
+              <a href="#" class="navigation-list__link">Features</a>
+            </li>
+            <li class="navigation-list__item">
+              <a href="#" class="navigation-list__link">Products</a>
+            </li>
+            <li class="navigation-list__item">
+              <a href="#" class="navigation-list__link">App</a>
+            </li>
+            <li class="navigation-list__item">
+              <a href="#" class="navigation-list__link">Contact</a>
+            </li>
+          </ul>
+          <div class="social-media">
+            <a href="#" class="social-media__icon-link">
+              <svg class="social-media__icon">
+                <use
+                  xlink:href="img/sprite.svg#icon-facebook-with-circle"
+                ></use>
+              </svg>
+            </a>
+            <a href="#" class="social-media__icon-link">
+              <svg class="social-media__icon">
+                <use
+                  xlink:href="img/sprite.svg#icon-instagram-with-circle"
+                ></use>
+              </svg>
+            </a>
+          </div>
+        </nav>
+      </div>
+      <div class="hero-content">
+        <div class="hero-content__text">
+          <div class="hero-content__heading">
+            <div class="hero-content__heading-main">
+              <div class="heading-break">A Mirror with</div> Limitless Capabilities.
+            </div>
+            <div class="hero-content__heading-sub">Straight from science fiction ready to feed you whatever information you need at a moment's notice.</div>
+            <a href="#" class="btn-inline">Contact Us &rarr;</a>
+          </div>
         </div>
+        <div class="hero-content__image">
+          <img src="/img/g1832.png" alt="Smart Mirror" class="hero-content__smart-mirror">
+          <!-- <img src="/img/smartMirror.png" alt="Smart Mirror" class="hero-content__smart-mirror"> -->
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" class="wave" viewBox="0 0 1440 320">
+        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" style="stop-color:#a2e8ff;stop-opacity:1" />
+          <stop offset="100%" style="stop-color:#1675da;stop-opacity:1" />
+        </linearGradient>
+        <path fill="url(#grad1)" fill-opacity=".8" d="M0,288L80,256C160,224,320,160,480,165.3C640,171,800,245,960,245.3C1120,245,1280,171,1360,133.3L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" class="wave" viewBox="0 0 1440 320">
+        <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" style="stop-color:#b4eeff;stop-opacity:1" />
+          <stop offset="100%" style="stop-color:#4191e7;stop-opacity:1" />
+        </linearGradient>
+        <path fill="url(#grad2)" fill-opacity=".5" d="M0,256L80,256C160,256,320,256,480,245.3C640,235,800,213,960,218.7C1120,224,1280,256,1360,272L1440,288L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+      </svg>
     </header>
-</body>
+    <main class="content">
+      <section class="section-about">
+          <h1 class="heading-primary">About</h1>
+          <div class="about-container">
+            <div class="about-container__details">
+              <div class="about-container__details-para">
+                <h3 class="heading-tertiary">Hawkeye, your daily driver</h3>
+                <p>HAWKEYE Smart Mirror provides an access point for a person to receive all the information that could affect how they plan for the day. All the necessary information like weather and news can be accessed from one location.</p>
+              </div>
+              <div class="about-container__details-para">
+                <h3 class="heading-tertiary">All the features you need</h3>
+                <p>HAWKEYE Smart Mirror is a fully featured mirror that you can control with voice, gesture and companion app. It has speakers, camera, microphone, Wi-Fi and Bluetooth. It is splash-proof and moisture resistant.</p>
+              </div>
+            </div>
+            <div class="about-container__image">
+              <img src="/img/smartMirror.png" alt="Smart mirror" class="about-image">
+            </div>
+          </div>
+          <div class="apps-list">
+            <svg class="apps-list__item">
+              <use
+                xlink:href="img/sprite.svg#icon-newspaper"
+              ></use>
+            </svg>
+            <svg class="apps-list__item">
+              <use
+                xlink:href="img/sprite.svg#icon-calendar"
+              ></use>
+            </svg>
+            <svg class="apps-list__item">
+              <use
+                xlink:href="img/sprite.svg#icon-cloud"
+              ></use>
+            </svg>
+            <svg class="apps-list__item">
+              <use
+                xlink:href="img/sprite.svg#icon-music"
+              ></use>
+            </svg>
+            <p class="apps-list__text display-none">And many more...</p>
+          </div>
+      </section>
+      <section class="section-features">
+        <h1 class="heading-primary">Features</h1>
+        <div class="feature-list">
+          <div class="feature-list__item">
+            <svg class="feature-list__logo">
+              <use xlink:href="img/sprite.svg#icon-mic"></use>
+            </svg>
+            <h3 class="heading-tertiary">Personal Assistant</h3>
+            <p>Alexa built in enables you to control your mirror with voice commands.</p>
+          </div>
+          <div class="feature-list__item">
+            <svg class="feature-list__logo">
+              <use xlink:href="img/sprite.svg#icon-eye"></use>
+            </svg>
+            <h3 class="heading-tertiary">Home Intrusion System</h3>
+            <p>Keeps your home safe by alerting you when there is an intruder in your home.</p>
+          </div>
+          <div class="feature-list__item">
+            <div class="feature-list__logo-box">
+              <!-- <svg class="feature-list__blob" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#FF0066" d="M63.6,-21.2C71.2,2.7,58.4,32.8,37.8,46.4C17.2,60.1,-11.3,57.4,-34.2,41.9C-57.2,26.5,-74.7,-1.7,-68,-24.3C-61.4,-46.8,-30.7,-63.7,-1.4,-63.3C28,-62.8,56,-45.1,63.6,-21.2Z" transform="translate(100 100)" />
+              </svg> -->
+              <svg class="feature-list__logo">
+                <use xlink:href="img/sprite.svg#icon-light-bulb"></use>
+              </svg>
+            </div>
+            <h3 class="heading-tertiary">Integrates with smart devices</h3>
+            <p>Compatible with smart devices from leading brands. Control your smart devices with our built in alexa.</p>
+          </div>
+          <div class="feature-list__item">
+            <svg class="feature-list__logo">
+              <use xlink:href="img/sprite.svg#icon-flash"></use>
+            </svg>
+            <h3 class="heading-tertiary">Motion activated</h3>
+            <p>It goes to sleep when you are not using it and wakes up when you come back. This feature makes the mirror power efficient.</p>
+          </div>
+          <div class="feature-list__item">
+            <svg class="feature-list__logo">
+              <use xlink:href="img/sprite.svg#icon-mobile"></use>
+            </svg>
+            <h3 class="heading-tertiary">App remote control</h3>
+            <p>Control your mirror with our companion app available on play store and apple app store.</p>
+          </div>
+          <div class="feature-list__item">
+            <svg class="feature-list__logo">
+              <use xlink:href="img/sprite.svg#icon-shop"></use>
+            </svg>
+            <h3 class="heading-tertiary">Highly Customizable</h3>
+            <p>Customize the mirror to see only those things that matter to you. Select from a wide variety of apps available on our store to install and start using.</p>
+          </div>
+        </div>
+      </section>
+      <section class="section-app">
+        <h1 class="heading-primary">App</h1>
+        <div class="section-app__content">
+          <div class="section-app__image"></div>
+          <div class="section-app__text">
+            <h3 class="heading-tertiary">Companion App</h3>
+            <p>The Hawkeye app gives you the convinence to control your smart mirror from your smartphone. You can manage installed apps, install new apps, manage settings of the mirror and many more. You will receive notification along with live video feed on the app if there is any intrusion taking place at your home.</p>
+            <div class="download-btns">
+              <a href="#" class="app-btn">
+                <svg class="section-app__logo play-btn">
+                  <use xlink:href="img/sprite.svg#icon-googleplay"></use>
+                </svg>
+                <p>Get it on <br /> <span class="big-text">Google Play</span></p>
+              </a>
+              <a href="#" class="app-btn">
+                <svg class="section-app__logo">
+                  <use xlink:href="img/sprite.svg#icon-appleinc"></use>
+                </svg>
+                <p>Download on <br /> <span class="big-text">App Store</span></p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-product">
+        <h1 class="heading-primary">Products</h1>
+        <div class="product-table">
+          <div class="product-table__card">
+            <div class="card-heading">
+              <h3 class="heading-tertiary">
+                Hawkeye lite
+              </h3>
+            </div>
+            <div class="card-body">
+              <div class="product-features">
+                <ul class="product-features__list">
+                  <li class="product-features__list-item">Built in alexa</li>
+                  <li class="product-features__list-item">Companion mobile application</li>
+                  <li class="product-features__list-item">App store available</li>
+                  <li class="product-features__list-item">2 years warranty</li>
+                </ul>
+              </div>
+              <a href="#" class="btn buy-btn">Buy Now</a>
+            </div>
+          </div>
+          <div class="product-table__card">
+            <div class="card-heading">
+              <h3 class="heading-tertiary">
+                Hawkeye Pro
+              </h3>
+            </div>
+            <div class="card-body">
+              <div class="product-features">
+                <ul class="product-features__list">
+                  <li class="product-features__list-item">Built in alexa</li>
+                  <li class="product-features__list-item">Companion mobile application</li>
+                  <li class="product-features__list-item">App store available</li>
+                  <li class="product-features__list-item">2 years warranty</li>
+                  <li class="product-features__list-item">Home intrusion detection system</li>
+                </ul>
+              </div>
+              <a href="#" class="btn buy-btn">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+      <section class="section-faq">
+        <h1 class="heading-primary">Frequently Asked Questions</h1>
+        <div class="faq">
+          <input type="checkbox" id="faq-a">
+          <label for="faq-a">
+            <p class="faq-heading">What is the size of the mirror?</p>
+            <div class="faq-arrow"></div>
+            <p class="faq-text">
+              We provide mirrors in following two sizes: <br />
+              18*24*2.5 <br />
+              24*30*2.5
+              <br /> <br />
+              You can also get your mirror in custom size at some extra cost.
+            </p>
+          </label>
+          
+          <input type="checkbox" id="faq-b">
+          <label for="faq-b">
+            <p class="faq-heading">What is the shape of mirror?</p>
+            <div class="faq-arrow"></div>
+            <p class="faq-text">
+              The shape of the mirror is rectangular.
+              <br /> <br />
+              The shape can be customized as per customer requirements at some extra cost.
+            </p>
+          </label>
+          
+          <input type="checkbox" id="faq-c">
+          <label for="faq-c">
+            <p class="faq-heading">Is the mirror touchscreen?</p>
+            <div class="faq-arrow"></div>
+            <p class="faq-text">
+              No. The mirror is not touchscreen.
+              <br /> <br />
+              The mirror can be controlled using built-in alexa and the companion app which is available on google play store and apple app store.
+            </p>
+          </label>
+          
+          <input type="checkbox" id="faq-d">
+          <label for="faq-d">
+            <p class="faq-heading">Is internet connectivity necessary?</p>
+            <div class="faq-arrow"></div>
+            <p class="faq-text">
+              Yes. Internet connectivity is necessary for various modules like wheather and news which gets the data from the internet.
+              <br /> <br />
+              Without internet basic modules which do not require internet like time and compliments will work.
+            </p>
+          </label>
+          
+          <input type="checkbox" id="faq-e">
+          <label for="faq-e">
+            <p class="faq-heading">Where will the data be stored after intrusion activity?</p>
+            <div class="faq-arrow"></div>
+            <p class="faq-text">
+              We care about our users privacy. We dont store any private data of our users on the cloud.
+              <br /> <br />
+              The data after intrusion activity is stored on your google drive. You can download and share the video.
+            </p>
+          </label>
+        </div>
+      </section>
+      <section class="section-contact">
+        <h1 class="heading-primary">Contact Us</h1>
+        <h3 class="heading-tertiary align-center">We'd love to hear from you!</h3>
+        <p>Whether you have a question about features, pricing, need a demo, or anything else, our team is ready to answer all your questions.</p>
+        <div class="contact">
+          <div class="contact-info">
+            <div class="contact-info__address">
+              <svg class="contact-info__icon">
+                <use xlink:href="/img/sprite.svg#icon-location-pin" />
+              </svg>
+              <p>Hadapsar, Pune</p>
+            </div>
+            <div class="contact-info__phone">
+              <svg class="contact-info__icon">
+                <use xlink:href="/img/sprite.svg#icon-phone"></use>
+              </svg>
+              <p>+91 987654321</p>
+            </div>
+            <div class="contact-info__email">
+              <svg class="contact-info__icon">
+                <use xlink:href="/img/sprite.svg#icon-mail"></use>
+              </svg>
+              <p>john@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form action="mailto:rajatdangat@gmail.com" class="form" method="post" enctype="text/html">
+              <div class="form-group">
+                <input type="text" id="name" class="form__input" placeholder="Full Name" autocomplete="off" required>
+                <label for="name" class="form__label">Full Name</label>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form__input" id="email" placeholder="Email Address" autocomplete="off" required>
+                <label for="email" class="form__label">Email Address</label>
+              </div>
+              <div class="form-group">
+                 <input type="tel" class="form__input" id="phone" placeholder="Phone Number" autocomplete="off" required>
+                 <label for="phone" class="form__label">Phone Number</label>
+              </div>
+              <div class="form-group">
+                <textarea style="resize: none;" id="message" class="form__input" rows="7" placeholder="Message" autocomplete="off"></textarea>
+                <label for="message" class="form__label">Message</label>
+              </div>
+              <button class="submit-btn" type="submit">Get in touch</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__navigation">
+        <ul class="navigation-list">
+          <li class="navigation-list__item">
+            <a href="#" class="navigation-list__link">Home</a>
+          </li>
+          <li class="navigation-list__item">
+            <a href="#" class="navigation-list__link">About</a>
+          </li>
+          <li class="navigation-list__item">
+            <a href="#" class="navigation-list__link">Features</a>
+          </li>
+          <li class="navigation-list__item">
+            <a href="#" class="navigation-list__link">Products</a>
+          </li>
+          <li class="navigation-list__item">
+            <a href="#" class="navigation-list__link">App</a>
+          </li>
+          <li class="navigation-list__item">
+            <a href="#" class="navigation-list__link">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <p class="align-center">&copy; Eyeotech 2021. All rights reserved.</p>
+    </footer>
+
+    <svg style="width:0;height:0;position:absolute;" aria-hidden="true" focusable="false">
+      <linearGradient id="features-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color= "var(--color-gradient-light)" />
+        <stop offset="100%" stop-color= "var(--color-gradient-dark)" />
+      </linearGradient>
+    </svg>
+
+  </body>
+
+  <script>
+    const hamburger = document.querySelector(".hamburger");
+    const navbar = document.querySelector(".navbar");
+
+    hamburger.addEventListener('click', () => {
+      navbar.classList.toggle("height-toggle");
+      hamburger.classList.toggle("toggle");
+    })
+  </script>
 </html>
