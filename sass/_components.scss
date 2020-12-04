@@ -183,7 +183,7 @@
 .hero-content {
   // width: 100%;
   height: 100vh;
-  // background-image: url("/img/background.png");
+  // background-image: url("img/background.png");
   background-image: linear-gradient(to bottom right, var(--color-gradient-light), var(--color-gradient-dark));
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 
@@ -583,7 +583,7 @@
 
   &__image {
     flex: 0 0 50%;
-    background-image: url("/img/apple-mirror-banner-final-64.gif");
+    background-image: url("img/apple-mirror-banner-final-64.gif");
     background-size: cover;
 
     @media only screen and (max-width: 1270px) {
